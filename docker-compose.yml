@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  redis:
+    container_name: "demogo-redis"
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    environment:
+      ALLOW_EMPTY_PASSWORD: "yes"
+  postgres:
+    container_name: "demogo-postgres"
+    image: "postgres:latest"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "demogo"
+  mongo:
+    container_name: "demogo-mongo"
+    image: "mongo:4.2.17"
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "admin"
+      MONGO_INITDB_ROOT_PASSWORD: "admin"
+    restart: always

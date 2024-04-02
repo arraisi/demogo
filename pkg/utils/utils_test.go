@@ -2,8 +2,8 @@ package utils
 
 import (
 	"context"
-	"demogo/pkg/constant"
 	"errors"
+	"github.com/arraisi/demogo/pkg/constant"
 	"reflect"
 	"testing"
 

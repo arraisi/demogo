@@ -2,7 +2,7 @@ package product
 
 import (
 	"context"
-	productPb "demogo/internal/proto/product"
+	productPb "github.com/arraisi/demogo-proto/golang/pb/product"
 )
 
 func (s *Service) GetProductByID(ctx context.Context, req *productPb.GetProductIDRequest) (*productPb.GetProductIDResponse, error) {

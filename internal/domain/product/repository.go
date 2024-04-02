@@ -2,8 +2,8 @@ package product
 
 import (
 	"context"
-	"demogo/pkg/logger"
-	"demogo/pkg/safesql"
+	"github.com/arraisi/demogo/pkg/logger"
+	"github.com/arraisi/demogo/pkg/safesql"
 	"github.com/elgris/sqrl"
 )
 

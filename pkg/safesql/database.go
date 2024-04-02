@@ -3,9 +3,9 @@ package safesql
 import (
 	"context"
 	"database/sql"
-	"demogo/config"
-	"demogo/pkg/utils"
 	"errors"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/utils"
 	"log"
 	"time"
 

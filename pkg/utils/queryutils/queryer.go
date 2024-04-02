@@ -2,8 +2,8 @@ package queryutils
 
 import (
 	"database/sql"
-	"demogo/config"
-	"demogo/pkg/logger"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/logger"
 
 	sq "github.com/elgris/sqrl"
 )

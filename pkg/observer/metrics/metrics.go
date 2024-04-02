@@ -1,8 +1,8 @@
 package metrics
 
 import (
-	"demogo/pkg/logger"
 	"github.com/DataDog/datadog-go/v5/statsd"
+	"github.com/arraisi/demogo/pkg/logger"
 	"os"
 	"time"
 )

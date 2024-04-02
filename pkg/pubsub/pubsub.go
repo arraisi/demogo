@@ -2,8 +2,8 @@ package pubsub
 
 import (
 	"context"
-	"demogo/config"
 	"errors"
+	"github.com/arraisi/demogo/config"
 	"time"
 
 	"cloud.google.com/go/pubsub"

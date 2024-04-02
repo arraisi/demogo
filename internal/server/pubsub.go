@@ -1,8 +1,8 @@
 package server
 
 import (
-	"demogo/config"
-	ipubsub "demogo/pkg/pubsub"
+	"github.com/arraisi/demogo/config"
+	ipubsub "github.com/arraisi/demogo/pkg/pubsub"
 )
 
 type ServiceSubscription interface {

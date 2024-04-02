@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"github.com/arraisi/demogo/config"
 	"testing"
 )
 
@@ -15,9 +16,9 @@ func TestUtil_GeneratePostgreURL(t *testing.T) {
 			account: config.DBAccount{
 				Username: "admin",
 				Password: "admin",
-				URL:      "localhost",
+				Host:     "localhost",
 				Port:     "5432",
-				DBName:   "inventory",
+				Name:     "demogo",
 				Timeout:  "10",
 			},
 			expectedResult: "user=admin password=admin dbname=inventory host=localhost port=5432  sslmode=disable extra_float_digits=-1 connect_timeout=10",

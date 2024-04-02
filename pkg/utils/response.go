@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"demogo/pkg/constant"
+	"github.com/arraisi/demogo/pkg/constant"
 )
 
 // GetErrorResponse is a function for build errorMessage

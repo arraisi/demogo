@@ -2,8 +2,8 @@ package logger
 
 import (
 	"context"
-	"demogo/pkg/constant"
 	"fmt"
+	"github.com/arraisi/demogo/pkg/constant"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
 
 	"github.com/pkg/errors"

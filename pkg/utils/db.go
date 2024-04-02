@@ -2,8 +2,8 @@ package utils
 
 import (
 	"database/sql"
-	"demogo/config"
 	"fmt"
+	"github.com/arraisi/demogo/config"
 	"math"
 	"reflect"
 	"sort"

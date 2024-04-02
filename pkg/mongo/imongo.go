@@ -3,7 +3,7 @@ package mongo
 //go:generate mockgen --destination=../mocks/mock_imongo.go --package=mocks --source=imongo.go
 import (
 	"context"
-	"demogo/config"
+	"github.com/arraisi/demogo/config"
 
 	"go.mongodb.org/mongo-driver/mongo"
 

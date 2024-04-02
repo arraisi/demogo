@@ -1,8 +1,8 @@
 package queryutils
 
 import (
-	"demogo/config"
-	"demogo/pkg/logger"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/logger"
 	"log"
 	"testing"
 

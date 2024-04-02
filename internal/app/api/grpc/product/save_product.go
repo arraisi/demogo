@@ -2,8 +2,8 @@ package product
 
 import (
 	"context"
-	"demogo/internal/domain/product"
-	productPb "demogo/internal/proto/product"
+	productPb "github.com/arraisi/demogo-proto/golang/pb/product"
+	"github.com/arraisi/demogo/internal/domain/product"
 )
 
 func (s *Service) SaveProduct(ctx context.Context, request *productPb.SaveProductRequest) (*productPb.SaveProductResponse, error) {

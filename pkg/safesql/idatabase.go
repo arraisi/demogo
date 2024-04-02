@@ -4,7 +4,7 @@ package safesql
 import (
 	"context"
 	"database/sql"
-	"demogo/config"
+	"github.com/arraisi/demogo/config"
 
 	"github.com/jmoiron/sqlx"
 )

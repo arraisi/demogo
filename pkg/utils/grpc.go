@@ -3,8 +3,8 @@ package utils
 import (
 	"context"
 	"crypto/tls"
-	"demogo/config"
 	"fmt"
+	"github.com/arraisi/demogo/config"
 	"google.golang.org/grpc/codes"
 	"time"
 

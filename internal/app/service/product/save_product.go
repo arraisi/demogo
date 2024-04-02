@@ -2,7 +2,7 @@ package product
 
 import (
 	"context"
-	"demogo/internal/domain/product"
+	"github.com/arraisi/demogo/internal/domain/product"
 )
 
 func (s *service) SaveProduct(ctx context.Context, request product.Product) (product.Product, error) {

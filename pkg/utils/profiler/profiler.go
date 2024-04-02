@@ -1,8 +1,8 @@
 package profiler
 
 import (
-	"demogo/config"
-	"demogo/pkg/logger"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/logger"
 	"log"
 	"net/http"
 	"net/http/pprof"

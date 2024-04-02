@@ -6,7 +6,7 @@ package mock_product
 
 import (
 	context "context"
-	product "demogo/internal/proto/product"
+	product "github.com/arraisi/demogo/internal/proto/product"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

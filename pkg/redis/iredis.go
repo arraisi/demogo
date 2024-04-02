@@ -2,7 +2,7 @@ package redis
 
 //go:generate mockgen --destination=../mocks/mock_iredis.go --package=mocks --source=iredis.go
 import (
-	"demogo/config"
+	"github.com/arraisi/demogo/config"
 	"github.com/go-redsync/redsync/v4"
 	"time"
 )

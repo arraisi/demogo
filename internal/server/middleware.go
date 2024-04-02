@@ -2,8 +2,8 @@ package server
 
 import (
 	"context"
-	"demogo/config"
-	"demogo/pkg/constant"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/constant"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"time"

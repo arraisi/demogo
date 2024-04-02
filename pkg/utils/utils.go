@@ -2,10 +2,10 @@ package utils
 
 import (
 	"context"
-	"demogo/pkg/constant"
-	"demogo/pkg/utils/jsoniter"
 	"errors"
 	"fmt"
+	"github.com/arraisi/demogo/pkg/constant"
+	"github.com/arraisi/demogo/pkg/utils/jsoniter"
 	"math"
 )
 

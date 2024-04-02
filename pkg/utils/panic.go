@@ -2,7 +2,7 @@ package utils
 
 import (
 	"context"
-	"demogo/pkg/logger"
+	"github.com/arraisi/demogo/pkg/logger"
 	"strings"
 
 	"runtime/debug"

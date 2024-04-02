@@ -2,11 +2,11 @@ package infrastructures
 
 import (
 	"bytes"
-	"demogo/config"
-	"demogo/pkg/constant"
-	"demogo/pkg/utils"
 	"encoding/json"
 	"fmt"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/constant"
+	"github.com/arraisi/demogo/pkg/utils"
 	"io"
 	"net/http"
 	"os"

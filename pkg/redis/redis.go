@@ -1,12 +1,12 @@
 package redis
 
 import (
-	"demogo/config"
-	"demogo/pkg/constant"
 	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/constant"
 	"log"
 	"reflect"
 	"strconv"

@@ -1,10 +1,10 @@
 package utils
 
 import (
-	"demogo/config"
-	"demogo/pkg/logger"
 	"encoding/json"
 	"fmt"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/pkg/logger"
 	"io"
 	"net/http"
 )

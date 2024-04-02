@@ -1,9 +1,9 @@
 package product
 
 import (
-	"demogo/config"
-	"demogo/internal/app/service/product"
-	productPb "demogo/internal/proto/product"
+	productPb "github.com/arraisi/demogo-proto/golang/pb/product"
+	"github.com/arraisi/demogo/config"
+	"github.com/arraisi/demogo/internal/app/service/product"
 )
 
 type Service struct {
